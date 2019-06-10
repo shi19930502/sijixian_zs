@@ -1,0 +1,48 @@
+//内容
+div,
+p {
+    word-break: break-all;
+}
+a {
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+    -o-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-radius: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    display: block;
+//  border: 1px solid #dddddd;
+}
+body {
+    font-family: PingFang-SC-Bold,Arial, "Microsoft YaHei", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-family: PingFang-SC-Bold !important;
+    background: white;
+}
+body {
+    line-height: 0.4rem;
+}
+#app {
+    font-family: PingFang-SC-Bold !important;
+}
+#scrollView::-webkit-scrollbar{
+    display: none;
+}
+.footer_name{
+    color: rgba(204, 204, 204, 1);
+    text-align: center;
+    font-size: .2rem;
+    padding: .3rem 0 .3rem 0;
+}
+.yd-scrollview:after{
+    height: 0;
+}
